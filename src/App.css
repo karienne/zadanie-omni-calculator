@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(
+      90deg,
+      rgb(39, 167, 226) 0%,
+      rgb(72, 187, 207) 100%
+    );
+  }
+  .notes-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 1200px;
+    min-height: 700px;
+    background: rgb(255, 252, 249);
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 20px;
+    padding-bottom: 32px;
+  }
+  
+  h1 {
+    margin: 52px 0;
+    color: rgb(230, 119, 29);
+    font-size: 44px;
+  }
+
+  h2 {
+    margin-top: 82px;
+    margin-bottom: 42px;
+    color: rgb(230, 119, 29);
+    font-size: 32px;
+  }
+  
+  .notes-form {
+    margin-bottom: 62px;
+  }
+  
+  .add-textarea {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    width: 920px;
+    background: rgb(255, 252, 249);
+  }
+
+  .add-datepicker{
+      float: left;
+      margin-left: 140px;
+      font-size: 20px;
+
+  }
+  
+  .add-note-button {
+    padding: 16px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+      90deg,
+      rgb(230, 119, 29) 0%,
+      rgb(236, 190, 38) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 24px;
+  }
+
+  .edit-textarea{
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    width: 920px;
+    background: rgb(255, 252, 249);
+  }
+
+  .edit-datepicker{
+    float: left;
+    margin-left: 140px;
+    font-size: 20px;
+  }
+  
+  .edit-note-button{
+    padding: 16px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+      90deg,
+      rgb(230, 119, 29) 0%,
+      rgb(236, 190, 38) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 24px;
+  }
+  
+  .note-row {
+    margin: 4px auto;
+    color: #fff;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 118, 20, 1) 0%,
+      rgba(255, 84, 17, 1) 100%
+    );
+  
+    padding: 30px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    width: 920px;
+  }
+
+  .note-text{
+    font-size: 18px;
+    width: 85%;
+    text-align: left;
+  }
+
+  .text-icons{
+      display: flex;
+  }
+
+  .note-date{
+    float: left;
+    margin-top: 15px;
+  }
+  
+  .icons {
+    width: 15%;
+    text-align: right;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .delete-icon {
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .edit-icon {
+    color: #fff;
+  }
